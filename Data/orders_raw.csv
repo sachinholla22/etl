@@ -1,0 +1,7 @@
+order_id,customer_name,order_date,amount,payment_method,status
+1001,John Doe,2022-05-21,250.5,Credit Card,completed
+1002,,2022-05-22,125.0,Cash,completed
+1003,Jane Smith,2022-13-01,99.99,PayPal,pending
+1004,Bob Stone,2022-05-24,INVALID,Credit Card,completed
+1005,Alice Johnson,,199.99,Cash,canceled
+1006,Jane Smith,2022-05-25,150.0,,completed
