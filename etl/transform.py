@@ -28,7 +28,9 @@ def transform_csv(csv_path):
         df['first_name']=df['first_name'].apply(capitalizeName)
         df['last_name'] =df['last_name'].apply(capitalizeName)
         df=df.dropna()
-        return df
+        cleaned_file=csv_path.replace(".csv","_cleaned.csv")
+        df.to_csv(cleaned_file,index=False)
+        return cleaned_file
     except:
         logging.info("Error while transforming ")
         return None
