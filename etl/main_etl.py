@@ -1,8 +1,8 @@
 # main_etl.py
 
-from etl.extract import download_from_s3, list_csv_files, find_csv_file
-from etl.transform import transform_csv
-from etl.load import load_cleaned_file
+from extract import download_from_s3, list_csv_files, find_csv_file
+from transform import transform_csv
+from load import load_cleaned_file
 import os
 
 # Parameters
